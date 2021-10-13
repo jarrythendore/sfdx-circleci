@@ -29,6 +29,12 @@ jobs:
             sfdx
             mkdir tmp
 
+      -run:
+          name: create keys
+          command: |
+            mkdir asset
+            echo $HUB_SERVER_KEY | asset/server.key
+
       - run:
           name: Setup Org
           command: |
