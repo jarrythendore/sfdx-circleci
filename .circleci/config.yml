@@ -9,7 +9,7 @@ general:
 
 jobs:
   build:
-    #machine: true
+    machine: true
     #working_directory: ~/ci_app
     environment:
       # from https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli_standalone.htm
